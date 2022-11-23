@@ -1,0 +1,78 @@
+.caixa {
+    align-items: flex-end;
+    background: #dcdcdc;
+    display: flex;
+    justify-content: center;
+}
+
+.destaques {
+    display: grid;
+    grid-gap: .2rem;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 33.33% 33.33% 33.33%;
+    height: calc(100vh - 50px);
+}
+
+.destaques__titulo {
+    background: rgba(0, 0, 0, .5);
+    color: #fdfdfdfd;
+    padding: .1rem;
+    text-align: center;
+    width: 100%;
+}
+
+.destaques__principal {
+    background: url('https://files.tecnoblog.net/wp-content/uploads/2021/03/como-mudar-de-skin-no-fortnite-001.jpg') center / cover no-repeat;
+    grid-column: 1 / 4;
+    grid-row: 1 / 3;
+}
+
+.destaques__secundario:nth-child(2) {
+    background: url('https://images7.alphacoders.com/941/941884.jpg') center / cover no-repeat;
+    grid-column: 4 / 4;
+    grid-row: 1 / 1;
+}
+
+.destaques__secundario:nth-child(3) {
+    background: url('https://upload.wikimedia.org/wikipedia/commons/7/76/Slack_Icon.png') center / cover no-repeat;
+    grid-column: 4 / 4;
+    grid-row: 2 / 2;
+}
+
+.destaques__secundario:nth-child(4) {
+    background: url('https://mundoconectado.com.br/uploads/chamadas/whatsapp_4-chamada_4.png') center / cover no-repeat;
+    grid-column: 4 / 4;
+    grid-row: 3 / 3;
+}
+
+.destaques__secundario:nth-child(5) {
+    background: url('http://noticias.maisesports.com.br/wp-content/uploads/2021/07/Baixar-CSGO-download.jpg') center / cover no-repeat;
+    grid-column: 3 / 3;
+    grid-row: 3 / 3;
+}
+
+.destaques__categorias {
+    grid-column: 1 / 3;
+    grid-row: 3 / 3;
+}
+
+.destaques__categorias___lista {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.destaques__categorias___item {
+    align-items: center;
+    background: white;
+    border-left: 5px solid transparent;
+    color: #333333;
+    display: flex;
+    padding: 1rem;
+    width: 50%;
+}
+
+.destaques__categorias___link {
+    color: inherit;
+}
