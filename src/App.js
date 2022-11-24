@@ -3,7 +3,8 @@ import './assets/css/reset.css'
 import './App.css';
 import Header from './components/Header';
 import Destaques from './components/Destaques';
-import Footer from './components/Footer';
+import Populares from './components/Populares'
+//import Footer from './components/Footer';
 
 const App = () => {
   return (
@@ -11,8 +12,8 @@ const App = () => {
       <Header />
       <main className="conteudo">
         <Destaques />
+        <Populares />
       </main>
-      <Footer />
     </div>
   );
 };
