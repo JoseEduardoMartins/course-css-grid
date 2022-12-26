@@ -58,3 +58,8 @@
 .populares__titulo {
     font-weight: 500;
 }
+
+.populares__cabecalho {
+    border-bottom: 1px solid #dcdcdc;
+    display: flex;
+}
